@@ -111,6 +111,7 @@ html{
     color: rgb(0, 0, 0);
     min-height: 500px;
     font-family: 'ubuntu' , sans-serif;
+    background-attachment: fixed;
 }
 .home .max-width{
     margin: auto 0 auto 40px;
@@ -553,6 +554,7 @@ footer .high i{
 footer .high i:hover{
     transition: all 0.3s ease;
     transform: scale(2.05);
+    cursor: pointer;
 }
 footer .high a{
     color: rgba(14, 163, 119);
@@ -756,6 +758,15 @@ footer .high .end .tt{
     .home .home-content .text-2 #chaos{
         font-size: 45px;
         transition: all 0.3s ease;
+    }
+    footer .start {
+        display: none;
+    } 
+    footer .high i{
+        display: none;
+    }
+    footer .high .end{
+        color: red;
     }
 }
 
